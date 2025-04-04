@@ -5,7 +5,7 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
+  "type": "module",
   "main": "db.js",
   "directories": {
     "lib": "lib"
@@ -13,8 +13,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "react-scripts start",
-    "lint": "next lint"
+    "start": "next start",
+    "lint": "next lint",
+    "serve": "serve -s build"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
